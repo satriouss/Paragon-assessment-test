@@ -1,6 +1,9 @@
 describe('Register Scenarios', () => {
+  
   const baseUrl = "https://recruitment-staging-queenbee.paradev.io";
+  
   it('Register', () => {
+  
   cy.get('body').click(100, 200);
 
   cy.contains("Daftar").click();
