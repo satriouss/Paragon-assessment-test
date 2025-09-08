@@ -12,7 +12,7 @@ describe('Register Scenarios', () => {
 
   cy.get('input[name="fullname"]').type("Akun Contoh");
   cy.get('input[name="phone"]').type("081234567890");
-  cy.get('input[name="email"]').type("akuncontoh" + Date.now() + "@gmail.com");
+  cy.get('input[name="email"]').type("akuncontoh@gmail.com");
   cy.get('input[name="password"]').type("Password123!");
   cy.contains("Daftar").click();
   });
