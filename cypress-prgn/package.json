@@ -1,0 +1,12 @@
+{
+  "name": "cypress-project",
+  "version": "1.0.0",
+  "description": "E2E Cypress tests for login to checkout flow",
+  "scripts": {
+    "test": "cypress run",
+    "cy:open": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^13.0.0"
+  }
+}
